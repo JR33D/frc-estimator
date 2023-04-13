@@ -1,13 +1,19 @@
 require('dotenv').config();
 var axios = require('axios');
 
-const eventKey = '2023mrcmp'; // replace with your desired event key
+const eventKey = '2023cmptx'; //'2023mrcmp'; // replace with your desired event key
 
 const baseUrl = 'https://www.thebluealliance.com/api/v3';
 
 const headers = {
     'X-TBA-Auth-Key': process.env.BLUE_ALLIANCE_KEY, // replace with your TBA API key
     'Accept': 'application/json'
+};
+const getYearEvents = async (year) => { 
+    const endpoint = `/events/${year}`;
+    const url = `${baseUrl}${endpoint}`;
+    const response = await axios.get(url, { headers });
+    return response.data;
 };
 
 const getTeamEventData = async (teamKey, eventKey) => {
@@ -118,6 +124,12 @@ const getData = async () => {
     );
     return teams;
 };
+
+// getYearEvents(2023).then((data) => {
+//     data.forEach((eventObj) => {
+//         console.log({ name: eventObj.name, key: eventObj.key });
+//     })
+// });
 
 getData().then((teams) => {
     teams.sort((a, b) => (a.predictions.averageRankingPoints > b.predictions.averageRankingPoints) ? -1 : 0);
