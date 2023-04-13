@@ -2,61 +2,127 @@ require('dotenv').config();
 var axios = require('axios');
 
 const eventKey = '2023mrcmp'; // replace with your desired event key
-const teamKeys = [];//['frc103', 'frc2539', 'frc341']; // replace with your desired list of team keys
 
 const baseUrl = 'https://www.thebluealliance.com/api/v3';
-const endpoint = `/event/${eventKey}/teams/simple`;
 
 const headers = {
     'X-TBA-Auth-Key': process.env.BLUE_ALLIANCE_KEY, // replace with your TBA API key
     'Accept': 'application/json'
 };
 
-const getTeamData = async (teamKey) => {
-    const endpoint = `/team/${teamKey}/event/${eventKey}/matches/simple`;
+const getTeamEventData = async (teamKey, eventKey) => {
+    const endpoint = `/team/${teamKey}/event/${eventKey}/matches`;
     const url = `${baseUrl}${endpoint}`;
     const response = await axios.get(url, { headers });
     return response.data;
 };
 
-const getEventData = async () => {
+const getEventTeams = async (eventKey) => {
+    const endpoint = `/event/${eventKey}/teams/simple`;
     const url = `${baseUrl}${endpoint}`;
     const response = await axios.get(url, { headers });
+    const teamKeys = [];
     response.data.forEach(async (team) => {
         teamKeys.push(team.key);
     });
-    const teamData = await Promise.all(
-        teamKeys.map(teamKey => getTeamData(teamKey))
-    );
-    const eventPerformance = teamData.map((data, index) => {
-        const teamKey = teamKeys[index];
-        const qualsMatches = data.filter((match) => match.comp_level == 'qm'); // filter to only qualifying matches
-        const qualsWinRate = (qualsMatches.reduce((wins, match) => {
-            if (match.winning_alliance === 'red' && match.alliances.red.team_keys.includes(teamKey)) {
-                wins++;
-            } else if (match.winning_alliance === 'blue' && match.alliances.blue.team_keys.includes(teamKey)) {
-                wins++;
-            }
-            return wins;
-        }, 0) / qualsMatches.length).toFixed(2);
-        const finalsMatches = data.filter((match) => match.comp_level !== 'qm'); // filter out qualifying matches
-        const finalsWinRate = (finalsMatches.reduce((wins, match) => {
-            if (match.winning_alliance === 'red' && match.alliances.red.team_keys.includes(teamKey)) {
-                wins++;
-            } else if (match.winning_alliance === 'blue' && match.alliances.blue.team_keys.includes(teamKey)) {
-                wins++;
-            }
-            return wins;
-        }, 0) / finalsMatches.length).toFixed(2);
-        return {
-            teamKey,
-            qualsWinRate,
-            finalsWinRate
-        };
-    });
-    return eventPerformance.sort((a, b) => (a.qualsWinRate > b.qualsWinRate) ? -1 : 1);
+    return teamKeys;
 };
 
-getEventData()
-    .then(data => console.log(data))
-    .catch(error => console.error(error));
+const GetEventPerformance = async (team, teamEventData) => {
+    const qualsMatches = teamEventData.filter((match) => match.comp_level == 'qm'); // filter to only qualifying matches
+    const rankingPoints = qualsMatches.reduce((points, match) => {
+        const redAlliance = match.alliances.red;
+        const blueAlliance = match.alliances.blue;
+
+        if (match.score_breakdown != null) {
+            if (redAlliance.team_keys.includes(team)) {
+                points += match.score_breakdown.red.rp;
+            } else if (blueAlliance.team_keys.includes(team)) {
+                points += match.score_breakdown.blue.rp;
+            }
+        }
+        return points;
+    }, 0);
+    const qualsWinRate = (qualsMatches.reduce((wins, match) => {
+        if (match.winning_alliance === 'red' && match.alliances.red.team_keys.includes(team)) {
+            wins++;
+        } else if (match.winning_alliance === 'blue' && match.alliances.blue.team_keys.includes(team)) {
+            wins++;
+        }
+        return wins;
+    }, 0) / qualsMatches.length).toFixed(2);
+    const finalsMatches = teamEventData.filter((match) => match.comp_level !== 'qm'); // filter out qualifying matches
+    const finalsWinRate = (finalsMatches.reduce((wins, match) => {
+        if (match.winning_alliance === 'red' && match.alliances.red.team_keys.includes(team)) {
+            wins++;
+        } else if (match.winning_alliance === 'blue' && match.alliances.blue.team_keys.includes(team)) {
+            wins++;
+        }
+        return wins;
+    }, 0) / finalsMatches.length).toFixed(2);
+    return {
+        rankingPoints,
+        qualsWinRate,
+        finalsWinRate
+    };
+}
+
+const getTeamPastEvents = async (teamKey, year) => {
+    const endpoint = `/team/${teamKey}/events/${year}`;
+    const url = `${baseUrl}${endpoint}`;
+    const response = await axios.get(url, { headers });
+    const events = response.data.map(event => {
+        return {
+            name: event.name,
+            key: event.key
+        };
+    });
+    return events;
+};
+
+const getRankingPointsAverage = async (team) => {
+    var rankTotal = 0;
+    var eventCount = 0;
+    team.events.forEach((pastEvent) => {
+        if (pastEvent.key !== '2023cmptx') {
+            rankTotal = rankTotal + pastEvent.performance.rankingPoints;
+            ++eventCount;
+        }
+    });
+    var rankAverage = parseFloat((rankTotal / eventCount).toFixed(2));
+    return { averageRankingPoints: rankAverage, EventCount: eventCount };
+};
+
+const getData = async () => {
+    let teams = [];
+    const currentYear = new Date().getFullYear();
+    var teamKeys = await getEventTeams(eventKey);
+    await Promise.all(
+        teamKeys.map(async (team) => {
+            var teamPerformance = {};
+            teamPerformance.teamKey = team;
+            var teamPastEvents = await getTeamPastEvents(team, currentYear);
+            teamPerformance.events = [];
+            await Promise.all(
+                teamPastEvents.map(async (event) => {
+                    var eventData;
+                    var teamEventData = await getTeamEventData(team, event.key);
+                    var eventPerformance = await GetEventPerformance(team, teamEventData);
+                    eventData = { name: event.name, key: event.key, performance: eventPerformance };
+                    teamPerformance.events.push(eventData);
+                })
+            );
+            teamPerformance.predictions = await getRankingPointsAverage(teamPerformance);
+            teams.push(teamPerformance);
+        })
+    );
+    return teams;
+};
+
+getData().then((teams) => {
+    teams.sort((a, b) => (a.predictions.averageRankingPoints > b.predictions.averageRankingPoints) ? -1 : 0);
+    teams.forEach((team, index) => {
+        console.log((index+1) + ") " + team.teamKey + ": " + JSON.stringify(team.predictions));
+    });
+});
+
