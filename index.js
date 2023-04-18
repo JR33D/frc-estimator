@@ -1,31 +1,32 @@
 require('dotenv').config();
 var axios = require('axios');
 
-const eventKey = '2023cmptx'; //'2023mrcmp'; // replace with your desired event key
+const eventKey = '2023gal'; //'2023mrcmp'; // replace with your desired event key
 
-const baseUrl = 'https://www.thebluealliance.com/api/v3';
+const blueAllianceBaseUrl = 'https://www.thebluealliance.com/api/v3';
+const statboticsBaseUrl = 'https://api.statbotics.io/v2';
 
 const headers = {
     'X-TBA-Auth-Key': process.env.BLUE_ALLIANCE_KEY, // replace with your TBA API key
     'Accept': 'application/json'
 };
-const getYearEvents = async (year) => { 
+const getYearEvents = async (year) => {
     const endpoint = `/events/${year}`;
-    const url = `${baseUrl}${endpoint}`;
+    const url = `${blueAllianceBaseUrl}${endpoint}`;
     const response = await axios.get(url, { headers });
     return response.data;
 };
 
 const getTeamEventData = async (teamKey, eventKey) => {
     const endpoint = `/team/${teamKey}/event/${eventKey}/matches`;
-    const url = `${baseUrl}${endpoint}`;
+    const url = `${blueAllianceBaseUrl}${endpoint}`;
     const response = await axios.get(url, { headers });
     return response.data;
 };
 
 const getEventTeams = async (eventKey) => {
     const endpoint = `/event/${eventKey}/teams/simple`;
-    const url = `${baseUrl}${endpoint}`;
+    const url = `${blueAllianceBaseUrl}${endpoint}`;
     const response = await axios.get(url, { headers });
     const teamKeys = [];
     response.data.forEach(async (team) => {
@@ -75,7 +76,7 @@ const GetEventPerformance = async (team, teamEventData) => {
 
 const getTeamPastEvents = async (teamKey, year) => {
     const endpoint = `/team/${teamKey}/events/${year}`;
-    const url = `${baseUrl}${endpoint}`;
+    const url = `${blueAllianceBaseUrl}${endpoint}`;
     const response = await axios.get(url, { headers });
     const events = response.data.map(event => {
         return {
@@ -90,13 +91,25 @@ const getRankingPointsAverage = async (team) => {
     var rankTotal = 0;
     var eventCount = 0;
     team.events.forEach((pastEvent) => {
-        if (pastEvent.key !== '2023cmptx') {
+        var exlcudeEvents = ['2023cmptx', '2023gal', '2023micmp', '2023txcmp']
+        if (!exlcudeEvents.includes(pastEvent.key) && pastEvent.performance.rankingPoints) {
             rankTotal = rankTotal + pastEvent.performance.rankingPoints;
             ++eventCount;
         }
     });
     var rankAverage = parseFloat((rankTotal / eventCount).toFixed(2));
     return { averageRankingPoints: rankAverage, EventCount: eventCount };
+};
+
+const getTeamEPARating = async (team) => {
+    const teamNumberOnly = team.split(/[^\d]+/).filter(Boolean)
+    const endpoint = `/team/${teamNumberOnly}`;
+    const url = `${statboticsBaseUrl}${endpoint}`;
+    const response = await axios.get(url, {'Accept': 'application/json'});
+    return {
+        NormEPA: response.data.norm_epa,
+        NormEPARecent: response.data.norm_epa_recent
+    };
 };
 
 const getData = async () => {
@@ -108,6 +121,7 @@ const getData = async () => {
             var teamPerformance = {};
             teamPerformance.teamKey = team;
             var teamPastEvents = await getTeamPastEvents(team, currentYear);
+            teamPerformance.epaRating = await getTeamEPARating(team);
             teamPerformance.events = [];
             await Promise.all(
                 teamPastEvents.map(async (event) => {
@@ -134,7 +148,7 @@ const getData = async () => {
 getData().then((teams) => {
     teams.sort((a, b) => (a.predictions.averageRankingPoints > b.predictions.averageRankingPoints) ? -1 : 0);
     teams.forEach((team, index) => {
-        console.log((index+1) + ") " + team.teamKey + ": " + JSON.stringify(team.predictions));
+        console.log((index + 1) + ") " + team.teamKey + ": " + JSON.stringify(team.epaRating) + "\n"+ JSON.stringify(team.predictions));
     });
 });
 
