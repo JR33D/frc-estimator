@@ -1,7 +1,7 @@
 require('dotenv').config();
 var axios = require('axios');
 
-const eventKey = '2023gal'; //'2023mrcmp'; // replace with your desired event key
+const eventKey = '2024paben'; //'2024mrcmp'; // replace with your desired event key
 
 const blueAllianceBaseUrl = 'https://www.thebluealliance.com/api/v3';
 const statboticsBaseUrl = 'https://api.statbotics.io/v2';
@@ -91,7 +91,7 @@ const getRankingPointsAverage = async (team) => {
     var rankTotal = 0;
     var eventCount = 0;
     team.events.forEach((pastEvent) => {
-        var exlcudeEvents = ['2023cmptx', '2023gal', '2023micmp', '2023txcmp']
+        var exlcudeEvents = ['2024mrcmp', '2024week0'];
         if (!exlcudeEvents.includes(pastEvent.key) && pastEvent.performance.rankingPoints) {
             rankTotal = rankTotal + pastEvent.performance.rankingPoints;
             ++eventCount;
