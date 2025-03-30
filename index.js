@@ -2,7 +2,7 @@ require('dotenv').config();
 const { getEventRankingEstimate } = require('./tools/ranking');
 const { getChampFieldList } = require('./tools/fieldAssignment');
 
-const eventKey = '2025cmptx'; // Example event key
+const eventKey = '2025mrcmp'; // '2025cmptx'; // Example event key
 
 // Get event ranking estimate and field assignments
 getEventRankingEstimate(eventKey).then((teams) => {
@@ -12,7 +12,8 @@ getEventRankingEstimate(eventKey).then((teams) => {
     });
 });
 
-getChampFieldList(eventKey).then((fieldLists) => {
+// Hard code to worlds eventKey since that's place with fields.
+getChampFieldList('2025cmptx').then((fieldLists) => {
     Object.keys(fieldLists).forEach(field => {
         console.log(`${field}:`, fieldLists[field].map(team => team.teamKey));
     });
