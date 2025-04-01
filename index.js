@@ -90,13 +90,13 @@ const currentYear = new Date().getFullYear();
 //     });
 // });
 
-const isDistrictChampionship = false; // Change for regular event
-const targetPoints = 13; // Desired points
+const isDistrictChampionship = true; // Change for regular event
+const targetPoints = 39; // Desired points
 
 suggestPathsToPoints(targetPoints, isDistrictChampionship).then((results) => {
-    console.log("Best Case:", results.bestCase);
-    console.log("Worst Case:", results.worstCase);
-    console.log("Average Case:", results.averageCase);
+    console.log(`Best Case (scenario ${results.allScenarios.length - 1}):`, results.bestCase);
+    console.log(`Worst Case(scenario ${0}):`, results.worstCase);
+    console.log(`Average Case (scenario ${Math.floor(results.allScenarios.length / 2)}):`, results.averageCase);
     // results.allScenarios.forEach((scenario, index) => {
     //     console.log(`Scenario ${index}:`, scenario);
     // });

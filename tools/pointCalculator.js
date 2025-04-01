@@ -130,7 +130,7 @@ const suggestPathsToPoints = async (targetPoints, isDistrictChampionship) => {
                     const points = calculateTotalPoints(rank, isCaptain, pickOrder, placement, finalsWins);
                     
                     // if (points >= adjustedTarget) {
-                    if (points >= adjustedTarget && points <= adjustedTarget + 4) {
+                    if (points >= adjustedTarget && points <= adjustedTarget + 3) {
                         scenarios.push({
                             rank,
                             pickOrder: formatPickOrder(pickOrder),
