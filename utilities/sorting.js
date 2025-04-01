@@ -12,4 +12,16 @@ const sortTeamsByRecord = (teams) => {
     return teams;
 };
 
-module.exports = { sortTeamsByRecord };
+const sortTeamsByRankingAverage = (teams) => {
+    return teams.sort((a, b) => (a.ranking.averageRankingPoints > b.ranking.averageRankingPoints) ? -1 : 0);
+};
+
+const sortTeamsByNumber = (teams) => {
+    return teams.sort((a,b) =>{
+        const numA = parseInt(a.teamKey.substring(3), 10);
+        const numB = parseInt(b.teamKey.substring(3), 10);
+        return numA - numB; // Sort numerically
+      });
+}
+
+module.exports = { sortTeamsByNumber, sortTeamsByRecord, sortTeamsByRankingAverage };

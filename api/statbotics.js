@@ -2,9 +2,14 @@ const axios = require('axios');
 
 const statboticsBaseUrl = 'https://api.statbotics.io/v3';
 
-// Get team EPA rating
-const getTeamEPARating = async (team) => {
-    const teamNumberOnly = team.split(/[^\d]+/).filter(Boolean);
+
+/**
+ * Gets a teams performance at an event.
+ * @param {string} teamKey - Team to get data for.
+ * @returns {Object} An object with NormEpa: {number}, and NormEPARecent: {number} properties.
+ */
+const getTeamEPARating = async (teamKey) => {
+    const teamNumberOnly = teamKey.split(/[^\d]+/).filter(Boolean);
     const endpoint = `/team/${teamNumberOnly}`;
     const url = `${statboticsBaseUrl}${endpoint}`;
     const response = await axios.get(url, { headers: { 'Accept': 'application/json' } });

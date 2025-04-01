@@ -6,54 +6,69 @@ const headers = {
     'Accept': 'application/json'
 };
 
-// Get event teams
-const getEventTeams = async (eventKey) => {
-    const endpoint = `/event/${eventKey}/teams/simple`;
+
+
+/**
+ * Gets a teams performance at an event.
+ * @param {string} teamKey - Team to get data for.
+ * @param {number} year - year to get team events.
+ * @returns {Object} - A list of events ["{year}{eventCode}", "2025paben", 2025cmptx"].
+ */
+const getTeamPastEvents = async (teamKey, year) => {
+    const endpoint = `/team/${teamKey}/events/${year}`;
     const url = `${blueAllianceBaseUrl}${endpoint}`;
     const response = await axios.get(url, { headers });
-    return response.data.map(team => team.key);
+    const ignoreEvents = [ "2025micmp", "2025txcmp" ]
+    const currentDate = `${new Date().toISOString().split("T")[0]}`;
+    let events = [];
+    response.data.forEach((event) => {
+        if(!ignoreEvents.includes(event.key) && event.week > 0) {
+            if(event.end_date < currentDate) {
+                events.push(event.key); 
+            }
+        }
+    });
+    return events;
 };
 
-// Get team event data
-const getTeamEventData = async (teamKey, eventKey) => {
-    const endpoint = `/team/${teamKey}/event/${eventKey}/matches`;
+
+/**
+ * Get the list of teams at an event.
+ * @param {string} eventKey - Event to get teams for.
+ * @returns {string[]} - list of teams ["frc###", "frc###"].
+ */
+const getEventTeams = async (eventKey) => {
+    const endpoint = `/event/${eventKey}/teams/keys`;
     const url = `${blueAllianceBaseUrl}${endpoint}`;
     const response = await axios.get(url, { headers });
     return response.data;
 };
 
-// Get team past events
-const getTeamPastEvents = async (teamKey, year) => {
-    const endpoint = `/team/${teamKey}/events/${year}`;
+
+/**
+ * Gets a teams performance at an event.
+ * @param {string} teamKey - Team to get data for.
+ * @param {string} eventKey - Event to get team data for.
+ * @returns {Object} - An object with totalRankingPoints: {number}, and Record: {wins, losses, ties} properties.
+ */
+const getTeamEventData = async (teamKey, eventKey) => {
+    const endpoint = `/event/${eventKey}/rankings`;
     const url = `${blueAllianceBaseUrl}${endpoint}`;
     const response = await axios.get(url, { headers });
-    return response.data.map(event => ({ name: event.name, key: event.key }));
-};
-
-// Get team record
-const getTeamRecord = async (teamKey, year) => {
-    const url = `${blueAllianceBaseUrl}/team/${teamKey}/matches/${year}`;
-    try {
-        const response = await axios.get(url, { headers });
-        const matches = response.data;
-        let record = { wins: 0, losses: 0, ties: 0 };
-        matches.forEach(match => {
-            const allianceColor = match.alliances.red.team_keys.includes(teamKey) ? 'red' : 'blue';
-            const teamScore = match.alliances[allianceColor].score;
-            const opponentScore = match.alliances[allianceColor === 'red' ? 'blue' : 'red'].score;
-            if (teamScore > opponentScore) {
-                record.wins++;
-            } else if (teamScore < opponentScore) {
-                record.losses++;
-            } else {
-                record.ties++;
-            }
-        });
-        return record;
-    } catch (error) {
-        console.error('Error getting team record:', error.message);
-        return null;
+    if(response.data.rankings) {
+        // Find the team object
+        const team = response.data.rankings.find(r => r.team_key === teamKey);
+        return {
+            totalRankingPoints: team.extra_stats[0],  // First value in extra_stats array
+            record: { ...team.record }  // Spread to copy wins, losses, ties
+        };
+    } else {
+        return{
+            totalRankingPoints: 0,  // First value in extra_stats array
+            record: { wins: 0, losses: 0, ties: 0 }  // Spread to copy wins, losses, ties
+        };
     }
 };
 
-module.exports = { getEventTeams, getTeamEventData, getTeamPastEvents, getTeamRecord };
+
+module.exports = { getTeamPastEvents, getEventTeams, getTeamEventData };
