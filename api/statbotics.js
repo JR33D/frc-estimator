@@ -13,6 +13,7 @@ const getTeamEPARating = async (teamKey) => {
     const endpoint = `/team/${teamNumberOnly}`;
     const url = `${statboticsBaseUrl}${endpoint}`;
     const response = await axios.get(url, { headers: { 'Accept': 'application/json' } });
+    
     return {
         NormEPA: response.data.norm_epa.mean,
         NormEPARecent: response.data.norm_epa.recent

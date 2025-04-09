@@ -18,7 +18,7 @@ const getTeamPastEvents = async (teamKey, year) => {
     const endpoint = `/team/${teamKey}/events/${year}`;
     const url = `${blueAllianceBaseUrl}${endpoint}`;
     const response = await axios.get(url, { headers });
-    const ignoreEvents = [ "2025micmp", "2025txcmp" ]
+    const ignoreEvents = [ "2025micmp", "2025txcmp", "2025necmp","2025oncmp", "2025pncmp" ]
     const currentDate = `${new Date().toISOString().split("T")[0]}`;
     let events = [];
     response.data.forEach((event) => {
@@ -58,6 +58,7 @@ const getTeamEventData = async (teamKey, eventKey) => {
     if(response.data.rankings) {
         // Find the team object
         const team = response.data.rankings.find(r => r.team_key === teamKey);
+        // console.log(`Team: ${teamKey}, Event: ${eventKey}: ${JSON.stringify(team, null, 2)}`);
         return {
             totalRankingPoints: team.extra_stats[0],  // First value in extra_stats array
             record: { ...team.record }  // Spread to copy wins, losses, ties
@@ -71,4 +72,29 @@ const getTeamEventData = async (teamKey, eventKey) => {
 };
 
 
-module.exports = { getTeamPastEvents, getEventTeams, getTeamEventData };
+/**
+ * Gets all of the events for a specified year
+ * @param {number} year - year to get events.
+ *  @returns {string[]} - list of eventKeys {year}{eventCode}
+ */
+const getYearEvents = async (year) => {
+    const endpoint = `/events/${year}/keys`;
+    const url = `${blueAllianceBaseUrl}${endpoint}`;
+    const response = await axios.get(url, { headers });
+    return response.data;
+};
+
+
+/**
+ * Gets insights about event
+ * @param {string} eventKey - event to get insights.
+ *  @returns {Object} - returns an object with qual and playoff insights
+ */
+const getEventInsights = async (eventKey) => {
+    const endpoint = `/event/${eventKey}/insights`;
+    const url = `${blueAllianceBaseUrl}${endpoint}`;
+    const response = await axios.get(url, { headers });
+    return response.data;
+}
+
+module.exports = { getTeamPastEvents, getEventTeams, getTeamEventData, getYearEvents, getEventInsights };

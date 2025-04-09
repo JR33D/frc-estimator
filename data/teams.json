@@ -1,0 +1,2997 @@
+[
+  {
+    "teamKey": "frc4",
+    "number": "4",
+    "teamName": "Team 4 ELEMENT"
+  },
+  {
+    "teamKey": "frc11",
+    "number": "11",
+    "teamName": "MORT"
+  },
+  {
+    "teamKey": "frc16",
+    "number": "16",
+    "teamName": "Bomb Squad"
+  },
+  {
+    "teamKey": "frc27",
+    "number": "27",
+    "teamName": "Team RUSH"
+  },
+  {
+    "teamKey": "frc33",
+    "number": "33",
+    "teamName": "Killer Bees"
+  },
+  {
+    "teamKey": "frc34",
+    "number": "34",
+    "teamName": "Rockets"
+  },
+  {
+    "teamKey": "frc45",
+    "number": "45",
+    "teamName": "TechnoKats Robotics Team"
+  },
+  {
+    "teamKey": "frc51",
+    "number": "51",
+    "teamName": "Wings of Fire"
+  },
+  {
+    "teamKey": "frc58",
+    "number": "58",
+    "teamName": "The Riot Crew"
+  },
+  {
+    "teamKey": "frc59",
+    "number": "59",
+    "teamName": "RamTech"
+  },
+  {
+    "teamKey": "frc67",
+    "number": "67",
+    "teamName": "The HOT Team"
+  },
+  {
+    "teamKey": "frc70",
+    "number": "70",
+    "teamName": "More Martians"
+  },
+  {
+    "teamKey": "frc75",
+    "number": "75",
+    "teamName": "RoboRaiders"
+  },
+  {
+    "teamKey": "frc78",
+    "number": "78",
+    "teamName": "AIR STRIKE"
+  },
+  {
+    "teamKey": "frc86",
+    "number": "86",
+    "teamName": "Team Resistance"
+  },
+  {
+    "teamKey": "frc88",
+    "number": "88",
+    "teamName": "TJ²"
+  },
+  {
+    "teamKey": "frc103",
+    "number": "103",
+    "teamName": "Cybersonics"
+  },
+  {
+    "teamKey": "frc108",
+    "number": "108",
+    "teamName": "SigmaC@T Robotics Team"
+  },
+  {
+    "teamKey": "frc111",
+    "number": "111",
+    "teamName": "WildStang"
+  },
+  {
+    "teamKey": "frc118",
+    "number": "118",
+    "teamName": "Robonauts"
+  },
+  {
+    "teamKey": "frc125",
+    "number": "125",
+    "teamName": "NUTRONs"
+  },
+  {
+    "teamKey": "frc148",
+    "number": "148",
+    "teamName": "Robowranglers"
+  },
+  {
+    "teamKey": "frc166",
+    "number": "166",
+    "teamName": "Chop Shop"
+  },
+  {
+    "teamKey": "frc167",
+    "number": "167",
+    "teamName": "Children of the Corn"
+  },
+  {
+    "teamKey": "frc176",
+    "number": "176",
+    "teamName": "Aces High"
+  },
+  {
+    "teamKey": "frc179",
+    "number": "179",
+    "teamName": "Children of the Swamp"
+  },
+  {
+    "teamKey": "frc180",
+    "number": "180",
+    "teamName": "S.P.A.M."
+  },
+  {
+    "teamKey": "frc188",
+    "number": "188",
+    "teamName": "Blizzard"
+  },
+  {
+    "teamKey": "frc190",
+    "number": "190",
+    "teamName": "Gompei and the HERD"
+  },
+  {
+    "teamKey": "frc195",
+    "number": "195",
+    "teamName": "CyberKnights"
+  },
+  {
+    "teamKey": "frc201",
+    "number": "201",
+    "teamName": "The FEDS"
+  },
+  {
+    "teamKey": "frc217",
+    "number": "217",
+    "teamName": "ThunderChickens"
+  },
+  {
+    "teamKey": "frc226",
+    "number": "226",
+    "teamName": "Hammerheads"
+  },
+  {
+    "teamKey": "frc230",
+    "number": "230",
+    "teamName": "Gaelhawks"
+  },
+  {
+    "teamKey": "frc233",
+    "number": "233",
+    "teamName": "The Pink Team"
+  },
+  {
+    "teamKey": "frc245",
+    "number": "245",
+    "teamName": "Adambots"
+  },
+  {
+    "teamKey": "frc254",
+    "number": "254",
+    "teamName": "The Cheesy Poofs"
+  },
+  {
+    "teamKey": "frc294",
+    "number": "294",
+    "teamName": "Beach Cities Robotics"
+  },
+  {
+    "teamKey": "frc302",
+    "number": "302",
+    "teamName": "The Dragons"
+  },
+  {
+    "teamKey": "frc316",
+    "number": "316",
+    "teamName": "LUNATECS"
+  },
+  {
+    "teamKey": "frc321",
+    "number": "321",
+    "teamName": "RoboLancers"
+  },
+  {
+    "teamKey": "frc324",
+    "number": "324",
+    "teamName": "Chips"
+  },
+  {
+    "teamKey": "frc333",
+    "number": "333",
+    "teamName": "MEGALODONS"
+  },
+  {
+    "teamKey": "frc340",
+    "number": "340",
+    "teamName": "G.R.R. (Greater Rochester Robotics)"
+  },
+  {
+    "teamKey": "frc341",
+    "number": "341",
+    "teamName": "Miss Daisy"
+  },
+  {
+    "teamKey": "frc342",
+    "number": "342",
+    "teamName": "Burning Magnetos"
+  },
+  {
+    "teamKey": "frc343",
+    "number": "343",
+    "teamName": "Metal-In-Motion"
+  },
+  {
+    "teamKey": "frc353",
+    "number": "353",
+    "teamName": "POBots"
+  },
+  {
+    "teamKey": "frc359",
+    "number": "359",
+    "teamName": "Hawaiian Kids"
+  },
+  {
+    "teamKey": "frc360",
+    "number": "360",
+    "teamName": "The Revolution"
+  },
+  {
+    "teamKey": "frc365",
+    "number": "365",
+    "teamName": "Miracle Workerz"
+  },
+  {
+    "teamKey": "frc386",
+    "number": "386",
+    "teamName": "Team Voltage"
+  },
+  {
+    "teamKey": "frc418",
+    "number": "418",
+    "teamName": "Purple Haze"
+  },
+  {
+    "teamKey": "frc422",
+    "number": "422",
+    "teamName": "The Mech Tech Dragons"
+  },
+  {
+    "teamKey": "frc449",
+    "number": "449",
+    "teamName": "The Blair Robot Project"
+  },
+  {
+    "teamKey": "frc456",
+    "number": "456",
+    "teamName": "Siege Robotics"
+  },
+  {
+    "teamKey": "frc461",
+    "number": "461",
+    "teamName": "Westside Boiler Invasion"
+  },
+  {
+    "teamKey": "frc467",
+    "number": "467",
+    "teamName": "Center of Mass"
+  },
+  {
+    "teamKey": "frc469",
+    "number": "469",
+    "teamName": "Las Guerrillas"
+  },
+  {
+    "teamKey": "frc494",
+    "number": "494",
+    "teamName": "Martians"
+  },
+  {
+    "teamKey": "frc498",
+    "number": "498",
+    "teamName": "The Cobra Commanders"
+  },
+  {
+    "teamKey": "frc503",
+    "number": "503",
+    "teamName": "25 Years of Frog Force"
+  },
+  {
+    "teamKey": "frc537",
+    "number": "537",
+    "teamName": "Charger Robotics"
+  },
+  {
+    "teamKey": "frc540",
+    "number": "540",
+    "teamName": "TALON 540 Godwin Robotics"
+  },
+  {
+    "teamKey": "frc548",
+    "number": "548",
+    "teamName": "Robostangs"
+  },
+  {
+    "teamKey": "frc564",
+    "number": "564",
+    "teamName": "Longwood RoboLions"
+  },
+  {
+    "teamKey": "frc581",
+    "number": "581",
+    "teamName": "Blazing Bulldogs"
+  },
+  {
+    "teamKey": "frc587",
+    "number": "587",
+    "teamName": "The Hedgehogs"
+  },
+  {
+    "teamKey": "frc589",
+    "number": "589",
+    "teamName": "Falkon Robotics"
+  },
+  {
+    "teamKey": "frc597",
+    "number": "597",
+    "teamName": "The Wolverines"
+  },
+  {
+    "teamKey": "frc604",
+    "number": "604",
+    "teamName": "Quixilver"
+  },
+  {
+    "teamKey": "frc620",
+    "number": "620",
+    "teamName": "Warbots"
+  },
+  {
+    "teamKey": "frc624",
+    "number": "624",
+    "teamName": "CRyptonite"
+  },
+  {
+    "teamKey": "frc649",
+    "number": "649",
+    "teamName": "MSET Fish"
+  },
+  {
+    "teamKey": "frc686",
+    "number": "686",
+    "teamName": "Bovine Intervention"
+  },
+  {
+    "teamKey": "frc694",
+    "number": "694",
+    "teamName": "StuyPulse"
+  },
+  {
+    "teamKey": "frc695",
+    "number": "695",
+    "teamName": "Bison Robotics"
+  },
+  {
+    "teamKey": "frc706",
+    "number": "706",
+    "teamName": "Cyberhawks"
+  },
+  {
+    "teamKey": "frc766",
+    "number": "766",
+    "teamName": "M-A Bears"
+  },
+  {
+    "teamKey": "frc781",
+    "number": "781",
+    "teamName": "Kinetic Knights"
+  },
+  {
+    "teamKey": "frc801",
+    "number": "801",
+    "teamName": "Horsepower"
+  },
+  {
+    "teamKey": "frc834",
+    "number": "834",
+    "teamName": "SparTechs"
+  },
+  {
+    "teamKey": "frc836",
+    "number": "836",
+    "teamName": "The RoboBees"
+  },
+  {
+    "teamKey": "frc839",
+    "number": "839",
+    "teamName": "Rosie Robotics"
+  },
+  {
+    "teamKey": "frc858",
+    "number": "858",
+    "teamName": "Demons Robotics"
+  },
+  {
+    "teamKey": "frc862",
+    "number": "862",
+    "teamName": "Lightning Robotics"
+  },
+  {
+    "teamKey": "frc868",
+    "number": "868",
+    "teamName": "TechHOUNDS"
+  },
+  {
+    "teamKey": "frc870",
+    "number": "870",
+    "teamName": "TEAM  R. I. C. E."
+  },
+  {
+    "teamKey": "frc876",
+    "number": "876",
+    "teamName": "Thunder Robotics"
+  },
+  {
+    "teamKey": "frc888",
+    "number": "888",
+    "teamName": "Robotiators"
+  },
+  {
+    "teamKey": "frc900",
+    "number": "900",
+    "teamName": "The Zebracorns"
+  },
+  {
+    "teamKey": "frc910",
+    "number": "910",
+    "teamName": "The Foley Freeze"
+  },
+  {
+    "teamKey": "frc930",
+    "number": "930",
+    "teamName": "Mukwonago BEARs"
+  },
+  {
+    "teamKey": "frc948",
+    "number": "948",
+    "teamName": "NRG (Newport Robotics Group)"
+  },
+  {
+    "teamKey": "frc957",
+    "number": "957",
+    "teamName": "SWARM - South and West Albany Robotics Maniacs"
+  },
+  {
+    "teamKey": "frc971",
+    "number": "971",
+    "teamName": "Spartan Robotics"
+  },
+  {
+    "teamKey": "frc973",
+    "number": "973",
+    "teamName": "Greybots"
+  },
+  {
+    "teamKey": "frc987",
+    "number": "987",
+    "teamName": "HIGHROLLERS"
+  },
+  {
+    "teamKey": "frc1002",
+    "number": "1002",
+    "teamName": "CircuitRunners Robotics"
+  },
+  {
+    "teamKey": "frc1023",
+    "number": "1023",
+    "teamName": "Bedford Express"
+  },
+  {
+    "teamKey": "frc1038",
+    "number": "1038",
+    "teamName": "Lakota Robotics"
+  },
+  {
+    "teamKey": "frc1072",
+    "number": "1072",
+    "teamName": "Harker Robotics"
+  },
+  {
+    "teamKey": "frc1073",
+    "number": "1073",
+    "teamName": "The Force Team"
+  },
+  {
+    "teamKey": "frc1076",
+    "number": "1076",
+    "teamName": "PiHi Samurai"
+  },
+  {
+    "teamKey": "frc1086",
+    "number": "1086",
+    "teamName": "Blue Cheese"
+  },
+  {
+    "teamKey": "frc1108",
+    "number": "1108",
+    "teamName": "Panther Robotics"
+  },
+  {
+    "teamKey": "frc1114",
+    "number": "1114",
+    "teamName": "Simbotics"
+  },
+  {
+    "teamKey": "frc1138",
+    "number": "1138",
+    "teamName": "Eagle Engineering"
+  },
+  {
+    "teamKey": "frc1148",
+    "number": "1148",
+    "teamName": "Harvard Westlake Robotics"
+  },
+  {
+    "teamKey": "frc1153",
+    "number": "1153",
+    "teamName": "Timberwolves"
+  },
+  {
+    "teamKey": "frc1156",
+    "number": "1156",
+    "teamName": "Under Control"
+  },
+  {
+    "teamKey": "frc1197",
+    "number": "1197",
+    "teamName": "TorBots"
+  },
+  {
+    "teamKey": "frc1218",
+    "number": "1218",
+    "teamName": "SCH Robotics"
+  },
+  {
+    "teamKey": "frc1241",
+    "number": "1241",
+    "teamName": "THEORY6"
+  },
+  {
+    "teamKey": "frc1261",
+    "number": "1261",
+    "teamName": "Robo Lions Team1261"
+  },
+  {
+    "teamKey": "frc1296",
+    "number": "1296",
+    "teamName": "Full Metal Jackets"
+  },
+  {
+    "teamKey": "frc1318",
+    "number": "1318",
+    "teamName": "Issaquah Robotics Society"
+  },
+  {
+    "teamKey": "frc1323",
+    "number": "1323",
+    "teamName": "MadTown Robotics"
+  },
+  {
+    "teamKey": "frc1325",
+    "number": "1325",
+    "teamName": "Inverse Paradox"
+  },
+  {
+    "teamKey": "frc1329",
+    "number": "1329",
+    "teamName": "ViPrs"
+  },
+  {
+    "teamKey": "frc1369",
+    "number": "1369",
+    "teamName": "Minotaur"
+  },
+  {
+    "teamKey": "frc1388",
+    "number": "1388",
+    "teamName": "Eagle Robotics"
+  },
+  {
+    "teamKey": "frc1391",
+    "number": "1391",
+    "teamName": "The Metal Moose"
+  },
+  {
+    "teamKey": "frc1425",
+    "number": "1425",
+    "teamName": "Error Code Xero"
+  },
+  {
+    "teamKey": "frc1466",
+    "number": "1466",
+    "teamName": "Webb Robotics"
+  },
+  {
+    "teamKey": "frc1468",
+    "number": "1468",
+    "teamName": "Hicksville J-Birds"
+  },
+  {
+    "teamKey": "frc1477",
+    "number": "1477",
+    "teamName": "Texas Torque"
+  },
+  {
+    "teamKey": "frc1498",
+    "number": "1498",
+    "teamName": "The Polar Pilots"
+  },
+  {
+    "teamKey": "frc1501",
+    "number": "1501",
+    "teamName": "Team THRUST"
+  },
+  {
+    "teamKey": "frc1502",
+    "number": "1502",
+    "teamName": "Technical Difficulties"
+  },
+  {
+    "teamKey": "frc1506",
+    "number": "1506",
+    "teamName": "Metal Muscle"
+  },
+  {
+    "teamKey": "frc1507",
+    "number": "1507",
+    "teamName": "Warlocks"
+  },
+  {
+    "teamKey": "frc1511",
+    "number": "1511",
+    "teamName": "Rolling Thunder"
+  },
+  {
+    "teamKey": "frc1538",
+    "number": "1538",
+    "teamName": "The Holy Cows"
+  },
+  {
+    "teamKey": "frc1540",
+    "number": "1540",
+    "teamName": "Flaming Chickens"
+  },
+  {
+    "teamKey": "frc1561",
+    "number": "1561",
+    "teamName": "Roboducks"
+  },
+  {
+    "teamKey": "frc1619",
+    "number": "1619",
+    "teamName": "Up-A-Creek Robotics"
+  },
+  {
+    "teamKey": "frc1629",
+    "number": "1629",
+    "teamName": "Garrett Coalition (GaCo)"
+  },
+  {
+    "teamKey": "frc1640",
+    "number": "1640",
+    "teamName": "Sab-BOT-age"
+  },
+  {
+    "teamKey": "frc1648",
+    "number": "1648",
+    "teamName": "G3 Robotics"
+  },
+  {
+    "teamKey": "frc1671",
+    "number": "1671",
+    "teamName": "Buchanan Bird Brains"
+  },
+  {
+    "teamKey": "frc1676",
+    "number": "1676",
+    "teamName": "The Pascack PI-oneers"
+  },
+  {
+    "teamKey": "frc1678",
+    "number": "1678",
+    "teamName": "Citrus Circuits"
+  },
+  {
+    "teamKey": "frc1683",
+    "number": "1683",
+    "teamName": "Techno Titans"
+  },
+  {
+    "teamKey": "frc1690",
+    "number": "1690",
+    "teamName": "Orbit"
+  },
+  {
+    "teamKey": "frc1700",
+    "number": "1700",
+    "teamName": "Gatorbotics"
+  },
+  {
+    "teamKey": "frc1701",
+    "number": "1701",
+    "teamName": "RoboCubs"
+  },
+  {
+    "teamKey": "frc1706",
+    "number": "1706",
+    "teamName": "Ratchet Rockers"
+  },
+  {
+    "teamKey": "frc1710",
+    "number": "1710",
+    "teamName": "The Ravonics Revolution"
+  },
+  {
+    "teamKey": "frc1718",
+    "number": "1718",
+    "teamName": "The Fighting Pi"
+  },
+  {
+    "teamKey": "frc1727",
+    "number": "1727",
+    "teamName": "REX"
+  },
+  {
+    "teamKey": "frc1730",
+    "number": "1730",
+    "teamName": "Team Driven"
+  },
+  {
+    "teamKey": "frc1731",
+    "number": "1731",
+    "teamName": "Fresta Valley Robotics Club"
+  },
+  {
+    "teamKey": "frc1732",
+    "number": "1732",
+    "teamName": "Hilltopper Robotics"
+  },
+  {
+    "teamKey": "frc1741",
+    "number": "1741",
+    "teamName": "Red Alert"
+  },
+  {
+    "teamKey": "frc1756",
+    "number": "1756",
+    "teamName": "Argos"
+  },
+  {
+    "teamKey": "frc1768",
+    "number": "1768",
+    "teamName": "Nashoba Robotics"
+  },
+  {
+    "teamKey": "frc1771",
+    "number": "1771",
+    "teamName": "North Gwinnett Robotics"
+  },
+  {
+    "teamKey": "frc1778",
+    "number": "1778",
+    "teamName": "Chill Out"
+  },
+  {
+    "teamKey": "frc1792",
+    "number": "1792",
+    "teamName": "Round Table Robotics"
+  },
+  {
+    "teamKey": "frc1796",
+    "number": "1796",
+    "teamName": "RoboTigers"
+  },
+  {
+    "teamKey": "frc1807",
+    "number": "1807",
+    "teamName": "Redbird Robotics"
+  },
+  {
+    "teamKey": "frc1816",
+    "number": "1816",
+    "teamName": "\"The Green Machine\""
+  },
+  {
+    "teamKey": "frc1825",
+    "number": "1825",
+    "teamName": "The Cyborgs"
+  },
+  {
+    "teamKey": "frc1833",
+    "number": "1833",
+    "teamName": "Team BEAN"
+  },
+  {
+    "teamKey": "frc1847",
+    "number": "1847",
+    "teamName": "WRATH"
+  },
+  {
+    "teamKey": "frc1860",
+    "number": "1860",
+    "teamName": "Alphabots"
+  },
+  {
+    "teamKey": "frc1868",
+    "number": "1868",
+    "teamName": "Space Cookies"
+  },
+  {
+    "teamKey": "frc1880",
+    "number": "1880",
+    "teamName": "Warriors of East Harlem"
+  },
+  {
+    "teamKey": "frc1902",
+    "number": "1902",
+    "teamName": "Exploding Bacon"
+  },
+  {
+    "teamKey": "frc1918",
+    "number": "1918",
+    "teamName": "NC GEARS"
+  },
+  {
+    "teamKey": "frc1923",
+    "number": "1923",
+    "teamName": "The MidKnight Inventors"
+  },
+  {
+    "teamKey": "frc1942",
+    "number": "1942",
+    "teamName": "Cinderella Tel-Nof"
+  },
+  {
+    "teamKey": "frc1986",
+    "number": "1986",
+    "teamName": "Team Titanium"
+  },
+  {
+    "teamKey": "frc1987",
+    "number": "1987",
+    "teamName": "Broncobots"
+  },
+  {
+    "teamKey": "frc2022",
+    "number": "2022",
+    "teamName": "Titan Robotics"
+  },
+  {
+    "teamKey": "frc2046",
+    "number": "2046",
+    "teamName": "Bear Metal"
+  },
+  {
+    "teamKey": "frc2052",
+    "number": "2052",
+    "teamName": "KnightKrawler"
+  },
+  {
+    "teamKey": "frc2054",
+    "number": "2054",
+    "teamName": "Tech Vikes"
+  },
+  {
+    "teamKey": "frc2056",
+    "number": "2056",
+    "teamName": "OP Robotics"
+  },
+  {
+    "teamKey": "frc2073",
+    "number": "2073",
+    "teamName": "EagleForce"
+  },
+  {
+    "teamKey": "frc2075",
+    "number": "2075",
+    "teamName": "Enigma Robotics"
+  },
+  {
+    "teamKey": "frc2080",
+    "number": "2080",
+    "teamName": "Torbotics"
+  },
+  {
+    "teamKey": "frc2106",
+    "number": "2106",
+    "teamName": "The Junkyard Dogs"
+  },
+  {
+    "teamKey": "frc2122",
+    "number": "2122",
+    "teamName": "Team Tators"
+  },
+  {
+    "teamKey": "frc2129",
+    "number": "2129",
+    "teamName": "Ultraviolet"
+  },
+  {
+    "teamKey": "frc2137",
+    "number": "2137",
+    "teamName": "The Oxford RoboCats"
+  },
+  {
+    "teamKey": "frc2145",
+    "number": "2145",
+    "teamName": "HAZMATS"
+  },
+  {
+    "teamKey": "frc2200",
+    "number": "2200",
+    "teamName": "BCR Blackout"
+  },
+  {
+    "teamKey": "frc2228",
+    "number": "2228",
+    "teamName": "CougarTech"
+  },
+  {
+    "teamKey": "frc2230",
+    "number": "2230",
+    "teamName": "General Angels"
+  },
+  {
+    "teamKey": "frc2231",
+    "number": "2231",
+    "teamName": "OnyxTronix"
+  },
+  {
+    "teamKey": "frc2240",
+    "number": "2240",
+    "teamName": "Brute Force"
+  },
+  {
+    "teamKey": "frc2337",
+    "number": "2337",
+    "teamName": "EngiNERDs"
+  },
+  {
+    "teamKey": "frc2338",
+    "number": "2338",
+    "teamName": "Gear It Forward"
+  },
+  {
+    "teamKey": "frc2341",
+    "number": "2341",
+    "teamName": "Sprockets"
+  },
+  {
+    "teamKey": "frc2342",
+    "number": "2342",
+    "teamName": "Team Phoenix"
+  },
+  {
+    "teamKey": "frc2370",
+    "number": "2370",
+    "teamName": "IBOTS"
+  },
+  {
+    "teamKey": "frc2383",
+    "number": "2383",
+    "teamName": "Ninjineers"
+  },
+  {
+    "teamKey": "frc2412",
+    "number": "2412",
+    "teamName": "Robototes"
+  },
+  {
+    "teamKey": "frc2429",
+    "number": "2429",
+    "teamName": "The Blockheads"
+  },
+  {
+    "teamKey": "frc2438",
+    "number": "2438",
+    "teamName": "'Iobotics"
+  },
+  {
+    "teamKey": "frc2468",
+    "number": "2468",
+    "teamName": "Team Appreciate"
+  },
+  {
+    "teamKey": "frc2470",
+    "number": "2470",
+    "teamName": "Team BJORG"
+  },
+  {
+    "teamKey": "frc2481",
+    "number": "2481",
+    "teamName": "Roboteers"
+  },
+  {
+    "teamKey": "frc2485",
+    "number": "2485",
+    "teamName": "Overclocked"
+  },
+  {
+    "teamKey": "frc2486",
+    "number": "2486",
+    "teamName": "CocoNuts"
+  },
+  {
+    "teamKey": "frc2491",
+    "number": "2491",
+    "teamName": "NoMythic"
+  },
+  {
+    "teamKey": "frc2522",
+    "number": "2522",
+    "teamName": "Royal Robotics"
+  },
+  {
+    "teamKey": "frc2530",
+    "number": "2530",
+    "teamName": "Inconceivable"
+  },
+  {
+    "teamKey": "frc2539",
+    "number": "2539",
+    "teamName": "Krypton Cougars"
+  },
+  {
+    "teamKey": "frc2586",
+    "number": "2586",
+    "teamName": "Copper Bots"
+  },
+  {
+    "teamKey": "frc2590",
+    "number": "2590",
+    "teamName": "Nemesis"
+  },
+  {
+    "teamKey": "frc2601",
+    "number": "2601",
+    "teamName": "Steel Hawks"
+  },
+  {
+    "teamKey": "frc2607",
+    "number": "2607",
+    "teamName": "The Fighting RoboVikings"
+  },
+  {
+    "teamKey": "frc2614",
+    "number": "2614",
+    "teamName": "Mountaineer Area RoboticS (MARS)"
+  },
+  {
+    "teamKey": "frc2630",
+    "number": "2630",
+    "teamName": "Thunderbolts"
+  },
+  {
+    "teamKey": "frc2635",
+    "number": "2635",
+    "teamName": "Lake Monsters"
+  },
+  {
+    "teamKey": "frc2637",
+    "number": "2637",
+    "teamName": "Phantom Catz"
+  },
+  {
+    "teamKey": "frc2638",
+    "number": "2638",
+    "teamName": "Rebel Robotics"
+  },
+  {
+    "teamKey": "frc2640",
+    "number": "2640",
+    "teamName": "HOTBOTZ"
+  },
+  {
+    "teamKey": "frc2642",
+    "number": "2642",
+    "teamName": "Pitt Pirates"
+  },
+  {
+    "teamKey": "frc2648",
+    "number": "2648",
+    "teamName": "Infinite Loop"
+  },
+  {
+    "teamKey": "frc2706",
+    "number": "2706",
+    "teamName": "Merge Robotics"
+  },
+  {
+    "teamKey": "frc2714",
+    "number": "2714",
+    "teamName": "♨️ BBQ ♨️"
+  },
+  {
+    "teamKey": "frc2720",
+    "number": "2720",
+    "teamName": "Red Watch Robotics"
+  },
+  {
+    "teamKey": "frc2724",
+    "number": "2724",
+    "teamName": "Avalanche Robotics"
+  },
+  {
+    "teamKey": "frc2767",
+    "number": "2767",
+    "teamName": "Stryke Force"
+  },
+  {
+    "teamKey": "frc2783",
+    "number": "2783",
+    "teamName": "Engineers of Tomorrow"
+  },
+  {
+    "teamKey": "frc2813",
+    "number": "2813",
+    "teamName": "Gear Heads"
+  },
+  {
+    "teamKey": "frc2826",
+    "number": "2826",
+    "teamName": "Wave Robotics"
+  },
+  {
+    "teamKey": "frc2832",
+    "number": "2832",
+    "teamName": "The Livonia Warriors"
+  },
+  {
+    "teamKey": "frc2834",
+    "number": "2834",
+    "teamName": "Bionic Black Hawks"
+  },
+  {
+    "teamKey": "frc2847",
+    "number": "2847",
+    "teamName": "The MegaHertz"
+  },
+  {
+    "teamKey": "frc2851",
+    "number": "2851",
+    "teamName": "Crevolution"
+  },
+  {
+    "teamKey": "frc2877",
+    "number": "2877",
+    "teamName": "LigerBots"
+  },
+  {
+    "teamKey": "frc2881",
+    "number": "2881",
+    "teamName": "Lady Cans"
+  },
+  {
+    "teamKey": "frc2883",
+    "number": "2883",
+    "teamName": "F.R.E.D (FIRST Robotics Engineering and Design)"
+  },
+  {
+    "teamKey": "frc2910",
+    "number": "2910",
+    "teamName": "Jack in the Bot"
+  },
+  {
+    "teamKey": "frc2930",
+    "number": "2930",
+    "teamName": "Sonic Squirrels"
+  },
+  {
+    "teamKey": "frc2935",
+    "number": "2935",
+    "teamName": "NACI Robotics"
+  },
+  {
+    "teamKey": "frc2960",
+    "number": "2960",
+    "teamName": "Automation Nation"
+  },
+  {
+    "teamKey": "frc2974",
+    "number": "2974",
+    "teamName": "Walton Robotics"
+  },
+  {
+    "teamKey": "frc2976",
+    "number": "2976",
+    "teamName": "The Spartabots"
+  },
+  {
+    "teamKey": "frc2980",
+    "number": "2980",
+    "teamName": "Whidbey Island Wildcats"
+  },
+  {
+    "teamKey": "frc2987",
+    "number": "2987",
+    "teamName": "Rogue Robotics"
+  },
+  {
+    "teamKey": "frc2992",
+    "number": "2992",
+    "teamName": "The S.S. Prometheus"
+  },
+  {
+    "teamKey": "frc3005",
+    "number": "3005",
+    "teamName": "RoboChargers"
+  },
+  {
+    "teamKey": "frc3006",
+    "number": "3006",
+    "teamName": "Red Rock Robotics"
+  },
+  {
+    "teamKey": "frc3008",
+    "number": "3008",
+    "teamName": "Team Magma"
+  },
+  {
+    "teamKey": "frc3015",
+    "number": "3015",
+    "teamName": "Ranger Robotics"
+  },
+  {
+    "teamKey": "frc3035",
+    "number": "3035",
+    "teamName": "Droid Rage"
+  },
+  {
+    "teamKey": "frc3044",
+    "number": "3044",
+    "teamName": "Team 0xBE4"
+  },
+  {
+    "teamKey": "frc3045",
+    "number": "3045",
+    "teamName": "Gear Gremlins"
+  },
+  {
+    "teamKey": "frc3061",
+    "number": "3061",
+    "teamName": "Huskie Robotics"
+  },
+  {
+    "teamKey": "frc3100",
+    "number": "3100",
+    "teamName": "Lightning Turtles"
+  },
+  {
+    "teamKey": "frc3128",
+    "number": "3128",
+    "teamName": "The Aluminum Narwhals"
+  },
+  {
+    "teamKey": "frc3130",
+    "number": "3130",
+    "teamName": "The ERRORs"
+  },
+  {
+    "teamKey": "frc3132",
+    "number": "3132",
+    "teamName": "Thunder Down Under"
+  },
+  {
+    "teamKey": "frc3142",
+    "number": "3142",
+    "teamName": "Aperture"
+  },
+  {
+    "teamKey": "frc3173",
+    "number": "3173",
+    "teamName": "IgKnighters"
+  },
+  {
+    "teamKey": "frc3175",
+    "number": "3175",
+    "teamName": "Knight Vision"
+  },
+  {
+    "teamKey": "frc3182",
+    "number": "3182",
+    "teamName": "Athena's Warriors"
+  },
+  {
+    "teamKey": "frc3197",
+    "number": "3197",
+    "teamName": "HexHounds"
+  },
+  {
+    "teamKey": "frc3255",
+    "number": "3255",
+    "teamName": "SuperNURDs"
+  },
+  {
+    "teamKey": "frc3256",
+    "number": "3256",
+    "teamName": "WarriorBorgs"
+  },
+  {
+    "teamKey": "frc3276",
+    "number": "3276",
+    "teamName": "TOOLCATS"
+  },
+  {
+    "teamKey": "frc3284",
+    "number": "3284",
+    "teamName": "Camdenton  LASER 3284"
+  },
+  {
+    "teamKey": "frc3297",
+    "number": "3297",
+    "teamName": "Full Metal Jackets"
+  },
+  {
+    "teamKey": "frc3310",
+    "number": "3310",
+    "teamName": "Black Hawk Robotics"
+  },
+  {
+    "teamKey": "frc3313",
+    "number": "3313",
+    "teamName": "Mechatronics"
+  },
+  {
+    "teamKey": "frc3314",
+    "number": "3314",
+    "teamName": "Mechanical Mustangs"
+  },
+  {
+    "teamKey": "frc3322",
+    "number": "3322",
+    "teamName": "Eagle Evolution"
+  },
+  {
+    "teamKey": "frc3339",
+    "number": "3339",
+    "teamName": "BumbleB"
+  },
+  {
+    "teamKey": "frc3354",
+    "number": "3354",
+    "teamName": "PrepaTec - TecDroid"
+  },
+  {
+    "teamKey": "frc3414",
+    "number": "3414",
+    "teamName": "Hackbots"
+  },
+  {
+    "teamKey": "frc3459",
+    "number": "3459",
+    "teamName": "Team PyroTech"
+  },
+  {
+    "teamKey": "frc3467",
+    "number": "3467",
+    "teamName": "Windham Windup"
+  },
+  {
+    "teamKey": "frc3473",
+    "number": "3473",
+    "teamName": "Team Sprocket"
+  },
+  {
+    "teamKey": "frc3478",
+    "number": "3478",
+    "teamName": "PrepaTec - LamBot"
+  },
+  {
+    "teamKey": "frc3487",
+    "number": "3487",
+    "teamName": "Red Pride Robotics"
+  },
+  {
+    "teamKey": "frc3489",
+    "number": "3489",
+    "teamName": "Category 5"
+  },
+  {
+    "teamKey": "frc3492",
+    "number": "3492",
+    "teamName": "Putnam Area Robotics Team (P.A.R.T.s)"
+  },
+  {
+    "teamKey": "frc3501",
+    "number": "3501",
+    "teamName": "Firebots"
+  },
+  {
+    "teamKey": "frc3506",
+    "number": "3506",
+    "teamName": "YETI Robotics"
+  },
+  {
+    "teamKey": "frc3536",
+    "number": "3536",
+    "teamName": "Electro Eagles"
+  },
+  {
+    "teamKey": "frc3538",
+    "number": "3538",
+    "teamName": "RoboJackets"
+  },
+  {
+    "teamKey": "frc3539",
+    "number": "3539",
+    "teamName": "Byting Bulldogs"
+  },
+  {
+    "teamKey": "frc3572",
+    "number": "3572",
+    "teamName": "Wavelength"
+  },
+  {
+    "teamKey": "frc3598",
+    "number": "3598",
+    "teamName": "SEStematic Eliminators"
+  },
+  {
+    "teamKey": "frc3604",
+    "number": "3604",
+    "teamName": "Goon Squad"
+  },
+  {
+    "teamKey": "frc3620",
+    "number": "3620",
+    "teamName": "Average Joes"
+  },
+  {
+    "teamKey": "frc3655",
+    "number": "3655",
+    "teamName": "Tractor Technicians"
+  },
+  {
+    "teamKey": "frc3656",
+    "number": "3656",
+    "teamName": "Dexter Dreadbots"
+  },
+  {
+    "teamKey": "frc3663",
+    "number": "3663",
+    "teamName": "CPR - Cedar Park Robotics"
+  },
+  {
+    "teamKey": "frc3668",
+    "number": "3668",
+    "teamName": "TroBots"
+  },
+  {
+    "teamKey": "frc3674",
+    "number": "3674",
+    "teamName": "CloverBots"
+  },
+  {
+    "teamKey": "frc3739",
+    "number": "3739",
+    "teamName": "Oakbotics"
+  },
+  {
+    "teamKey": "frc3748",
+    "number": "3748",
+    "teamName": "Ragnarok Robotics"
+  },
+  {
+    "teamKey": "frc3767",
+    "number": "3767",
+    "teamName": "TC Titans"
+  },
+  {
+    "teamKey": "frc3792",
+    "number": "3792",
+    "teamName": "Army Ants"
+  },
+  {
+    "teamKey": "frc3794",
+    "number": "3794",
+    "teamName": "Prepa Tecmilenio WinT"
+  },
+  {
+    "teamKey": "frc3814",
+    "number": "3814",
+    "teamName": "PiBotics"
+  },
+  {
+    "teamKey": "frc3847",
+    "number": "3847",
+    "teamName": "Spectrum   -△◅"
+  },
+  {
+    "teamKey": "frc3863",
+    "number": "3863",
+    "teamName": "Pantherbotics"
+  },
+  {
+    "teamKey": "frc3880",
+    "number": "3880",
+    "teamName": "Tiki Techs"
+  },
+  {
+    "teamKey": "frc3882",
+    "number": "3882",
+    "teamName": "Lunas"
+  },
+  {
+    "teamKey": "frc3891",
+    "number": "3891",
+    "teamName": "Rodeo Robotics"
+  },
+  {
+    "teamKey": "frc3928",
+    "number": "3928",
+    "teamName": "Team Neutrino"
+  },
+  {
+    "teamKey": "frc3937",
+    "number": "3937",
+    "teamName": "Breakaway"
+  },
+  {
+    "teamKey": "frc3940",
+    "number": "3940",
+    "teamName": "CyberTooth"
+  },
+  {
+    "teamKey": "frc3970",
+    "number": "3970",
+    "teamName": "Duncan Dynamics"
+  },
+  {
+    "teamKey": "frc3986",
+    "number": "3986",
+    "teamName": "Express-O"
+  },
+  {
+    "teamKey": "frc3990",
+    "number": "3990",
+    "teamName": "Tech for Kids"
+  },
+  {
+    "teamKey": "frc4005",
+    "number": "4005",
+    "teamName": "Hostile Gato Robotics"
+  },
+  {
+    "teamKey": "frc4009",
+    "number": "4009",
+    "teamName": "Duluth DNA Robotics"
+  },
+  {
+    "teamKey": "frc4013",
+    "number": "4013",
+    "teamName": "Clockwork Mania"
+  },
+  {
+    "teamKey": "frc4020",
+    "number": "4020",
+    "teamName": "Cyber Tribe"
+  },
+  {
+    "teamKey": "frc4028",
+    "number": "4028",
+    "teamName": "The Beak Squad"
+  },
+  {
+    "teamKey": "frc4039",
+    "number": "4039",
+    "teamName": "MakeShift Robotics"
+  },
+  {
+    "teamKey": "frc4068",
+    "number": "4068",
+    "teamName": "Bearbotics"
+  },
+  {
+    "teamKey": "frc4069",
+    "number": "4069",
+    "teamName": "Lo-Ellen Robotics"
+  },
+  {
+    "teamKey": "frc4091",
+    "number": "4091",
+    "teamName": "DRIFT"
+  },
+  {
+    "teamKey": "frc4122",
+    "number": "4122",
+    "teamName": "Ossining O-Bots"
+  },
+  {
+    "teamKey": "frc4135",
+    "number": "4135",
+    "teamName": "Iron Patriots"
+  },
+  {
+    "teamKey": "frc4143",
+    "number": "4143",
+    "teamName": "MARS/WARS"
+  },
+  {
+    "teamKey": "frc4145",
+    "number": "4145",
+    "teamName": "WorBots"
+  },
+  {
+    "teamKey": "frc4146",
+    "number": "4146",
+    "teamName": "Sabercats"
+  },
+  {
+    "teamKey": "frc4152",
+    "number": "4152",
+    "teamName": "Hoya Robotics"
+  },
+  {
+    "teamKey": "frc4192",
+    "number": "4192",
+    "teamName": "Jaguar Robotics"
+  },
+  {
+    "teamKey": "frc4237",
+    "number": "4237",
+    "teamName": "Team Lance-A-Bot"
+  },
+  {
+    "teamKey": "frc4253",
+    "number": "4253",
+    "teamName": "Raid Zero"
+  },
+  {
+    "teamKey": "frc4256",
+    "number": "4256",
+    "teamName": "Cyborg Cats"
+  },
+  {
+    "teamKey": "frc4270",
+    "number": "4270",
+    "teamName": "Crusaders"
+  },
+  {
+    "teamKey": "frc4272",
+    "number": "4272",
+    "teamName": "Maverick Robotics"
+  },
+  {
+    "teamKey": "frc4322",
+    "number": "4322",
+    "teamName": "Clockwork"
+  },
+  {
+    "teamKey": "frc4329",
+    "number": "4329",
+    "teamName": "Lutheran Roboteers"
+  },
+  {
+    "teamKey": "frc4381",
+    "number": "4381",
+    "teamName": "Twisted Devils"
+  },
+  {
+    "teamKey": "frc4391",
+    "number": "4391",
+    "teamName": "BraveBots"
+  },
+  {
+    "teamKey": "frc4398",
+    "number": "4398",
+    "teamName": "Gladiators"
+  },
+  {
+    "teamKey": "frc4400",
+    "number": "4400",
+    "teamName": "Cerbotics - Peñoles"
+  },
+  {
+    "teamKey": "frc4403",
+    "number": "4403",
+    "teamName": "PrepaTec - ROULT - Peñoles"
+  },
+  {
+    "teamKey": "frc4414",
+    "number": "4414",
+    "teamName": "HighTide"
+  },
+  {
+    "teamKey": "frc4415",
+    "number": "4415",
+    "teamName": "EPIC Robotz"
+  },
+  {
+    "teamKey": "frc4421",
+    "number": "4421",
+    "teamName": "FORGE Robotics"
+  },
+  {
+    "teamKey": "frc4422",
+    "number": "4422",
+    "teamName": "Twisted Angels"
+  },
+  {
+    "teamKey": "frc4451",
+    "number": "4451",
+    "teamName": "ROBOTZ Garage"
+  },
+  {
+    "teamKey": "frc4467",
+    "number": "4467",
+    "teamName": "Titanium Titans"
+  },
+  {
+    "teamKey": "frc4476",
+    "number": "4476",
+    "teamName": "W.A.F.F.L.E.S."
+  },
+  {
+    "teamKey": "frc4481",
+    "number": "4481",
+    "teamName": "Team Rembrandts"
+  },
+  {
+    "teamKey": "frc4499",
+    "number": "4499",
+    "teamName": "The Highlanders"
+  },
+  {
+    "teamKey": "frc4500",
+    "number": "4500",
+    "teamName": "RoboHounds"
+  },
+  {
+    "teamKey": "frc4522",
+    "number": "4522",
+    "teamName": "Team SCREAM"
+  },
+  {
+    "teamKey": "frc4534",
+    "number": "4534",
+    "teamName": "Wired Wizards"
+  },
+  {
+    "teamKey": "frc4585",
+    "number": "4585",
+    "teamName": "Husky Robotics"
+  },
+  {
+    "teamKey": "frc4607",
+    "number": "4607",
+    "teamName": "C.I.S."
+  },
+  {
+    "teamKey": "frc4611",
+    "number": "4611",
+    "teamName": "OZone"
+  },
+  {
+    "teamKey": "frc4613",
+    "number": "4613",
+    "teamName": "Barker Redbacks"
+  },
+  {
+    "teamKey": "frc4635",
+    "number": "4635",
+    "teamName": "PrepaTec - Botbusters"
+  },
+  {
+    "teamKey": "frc4646",
+    "number": "4646",
+    "teamName": "Wildcard Robotics"
+  },
+  {
+    "teamKey": "frc4655",
+    "number": "4655",
+    "teamName": "Stateline Robotics"
+  },
+  {
+    "teamKey": "frc4680",
+    "number": "4680",
+    "teamName": "AzTech Eagles"
+  },
+  {
+    "teamKey": "frc4728",
+    "number": "4728",
+    "teamName": "ROCORI Ratcheteers"
+  },
+  {
+    "teamKey": "frc4738",
+    "number": "4738",
+    "teamName": "Patribots"
+  },
+  {
+    "teamKey": "frc4776",
+    "number": "4776",
+    "teamName": "S.C.O.T.S. Bots"
+  },
+  {
+    "teamKey": "frc4786",
+    "number": "4786",
+    "teamName": "Nicolet FEAR"
+  },
+  {
+    "teamKey": "frc4788",
+    "number": "4788",
+    "teamName": "Can't Control"
+  },
+  {
+    "teamKey": "frc4795",
+    "number": "4795",
+    "teamName": "Eastbots"
+  },
+  {
+    "teamKey": "frc4905",
+    "number": "4905",
+    "teamName": "Andromeda One"
+  },
+  {
+    "teamKey": "frc4907",
+    "number": "4907",
+    "teamName": "Thunderstamps"
+  },
+  {
+    "teamKey": "frc4909",
+    "number": "4909",
+    "teamName": "Bionics"
+  },
+  {
+    "teamKey": "frc4946",
+    "number": "4946",
+    "teamName": "The Alpha Dogs"
+  },
+  {
+    "teamKey": "frc4947",
+    "number": "4947",
+    "teamName": "Fenix"
+  },
+  {
+    "teamKey": "frc4967",
+    "number": "4967",
+    "teamName": "That ONE Team-OurNextEngineers"
+  },
+  {
+    "teamKey": "frc5013",
+    "number": "5013",
+    "teamName": "Trobots"
+  },
+  {
+    "teamKey": "frc5026",
+    "number": "5026",
+    "teamName": "Iron Panthers"
+  },
+  {
+    "teamKey": "frc5089",
+    "number": "5089",
+    "teamName": "Robo-Nerds"
+  },
+  {
+    "teamKey": "frc5112",
+    "number": "5112",
+    "teamName": "The Gongoliers"
+  },
+  {
+    "teamKey": "frc5142",
+    "number": "5142",
+    "teamName": "RoboDominators"
+  },
+  {
+    "teamKey": "frc5166",
+    "number": "5166",
+    "teamName": "Fabricators"
+  },
+  {
+    "teamKey": "frc5181",
+    "number": "5181",
+    "teamName": "Explorer Robotics"
+  },
+  {
+    "teamKey": "frc5193",
+    "number": "5193",
+    "teamName": "Pantheon"
+  },
+  {
+    "teamKey": "frc5199",
+    "number": "5199",
+    "teamName": "Robot Dolphins From Outer Space"
+  },
+  {
+    "teamKey": "frc5216",
+    "number": "5216",
+    "teamName": "E-Ville Empire"
+  },
+  {
+    "teamKey": "frc5298",
+    "number": "5298",
+    "teamName": "E-TECH CHARGERS"
+  },
+  {
+    "teamKey": "frc5348",
+    "number": "5348",
+    "teamName": "Charger Robotics 5348"
+  },
+  {
+    "teamKey": "frc5352",
+    "number": "5352",
+    "teamName": "Controlled Chaos"
+  },
+  {
+    "teamKey": "frc5406",
+    "number": "5406",
+    "teamName": "Celt-X"
+  },
+  {
+    "teamKey": "frc5411",
+    "number": "5411",
+    "teamName": "RoboTalons"
+  },
+  {
+    "teamKey": "frc5449",
+    "number": "5449",
+    "teamName": "Prototype"
+  },
+  {
+    "teamKey": "frc5454",
+    "number": "5454",
+    "teamName": "Obsidian"
+  },
+  {
+    "teamKey": "frc5460",
+    "number": "5460",
+    "teamName": "Strike Zone"
+  },
+  {
+    "teamKey": "frc5468",
+    "number": "5468",
+    "teamName": "Chaos Theory"
+  },
+  {
+    "teamKey": "frc5472",
+    "number": "5472",
+    "teamName": "The Wyld Stallyns"
+  },
+  {
+    "teamKey": "frc5516",
+    "number": "5516",
+    "teamName": "Iron Maple"
+  },
+  {
+    "teamKey": "frc5526",
+    "number": "5526",
+    "teamName": "Type C - Peñoles"
+  },
+  {
+    "teamKey": "frc5530",
+    "number": "5530",
+    "teamName": "Greenhills Lawnmowers"
+  },
+  {
+    "teamKey": "frc5535",
+    "number": "5535",
+    "teamName": "Bionic Bison"
+  },
+  {
+    "teamKey": "frc5553",
+    "number": "5553",
+    "teamName": "Robo'Lyon"
+  },
+  {
+    "teamKey": "frc5572",
+    "number": "5572",
+    "teamName": "Rosbots"
+  },
+  {
+    "teamKey": "frc5614",
+    "number": "5614",
+    "teamName": "Team Sycamore"
+  },
+  {
+    "teamKey": "frc5653",
+    "number": "5653",
+    "teamName": "Iron Mosquitos"
+  },
+  {
+    "teamKey": "frc5654",
+    "number": "5654",
+    "teamName": "Phoenix"
+  },
+  {
+    "teamKey": "frc5660",
+    "number": "5660",
+    "teamName": "Symmetrical Chaos"
+  },
+  {
+    "teamKey": "frc5665",
+    "number": "5665",
+    "teamName": "FENERBAHÇE DOGUS SPARC"
+  },
+  {
+    "teamKey": "frc5705",
+    "number": "5705",
+    "teamName": "DESERT EAGLES - JOHN DEERE"
+  },
+  {
+    "teamKey": "frc5712",
+    "number": "5712",
+    "teamName": "Hemlock's Gray Matter"
+  },
+  {
+    "teamKey": "frc5736",
+    "number": "5736",
+    "teamName": "Kingsmen Robotics"
+  },
+  {
+    "teamKey": "frc5800",
+    "number": "5800",
+    "teamName": "Magic Island Robotics"
+  },
+  {
+    "teamKey": "frc5801",
+    "number": "5801",
+    "teamName": "CTC Inspire"
+  },
+  {
+    "teamKey": "frc5804",
+    "number": "5804",
+    "teamName": "TORCH"
+  },
+  {
+    "teamKey": "frc5813",
+    "number": "5813",
+    "teamName": "Morpheus"
+  },
+  {
+    "teamKey": "frc5817",
+    "number": "5817",
+    "teamName": "Uni-Rex"
+  },
+  {
+    "teamKey": "frc5843",
+    "number": "5843",
+    "teamName": "Flurb"
+  },
+  {
+    "teamKey": "frc5847",
+    "number": "5847",
+    "teamName": "Ironclad"
+  },
+  {
+    "teamKey": "frc5895",
+    "number": "5895",
+    "teamName": "Peddie Robotics"
+  },
+  {
+    "teamKey": "frc5907",
+    "number": "5907",
+    "teamName": "CC Shambots"
+  },
+  {
+    "teamKey": "frc5913",
+    "number": "5913",
+    "teamName": "Patriotics"
+  },
+  {
+    "teamKey": "frc5940",
+    "number": "5940",
+    "teamName": "BREAD"
+  },
+  {
+    "teamKey": "frc5951",
+    "number": "5951",
+    "teamName": "Makers Assemble"
+  },
+  {
+    "teamKey": "frc5968",
+    "number": "5968",
+    "teamName": "Little Apple Cyborgs"
+  },
+  {
+    "teamKey": "frc5985",
+    "number": "5985",
+    "teamName": "Project Bucephalus"
+  },
+  {
+    "teamKey": "frc5987",
+    "number": "5987",
+    "teamName": "Galaxia in memory of David Zohar"
+  },
+  {
+    "teamKey": "frc5990",
+    "number": "5990",
+    "teamName": "TRIGON"
+  },
+  {
+    "teamKey": "frc6002",
+    "number": "6002",
+    "teamName": "ZooBOTix"
+  },
+  {
+    "teamKey": "frc6014",
+    "number": "6014",
+    "teamName": "ARC"
+  },
+  {
+    "teamKey": "frc6017",
+    "number": "6017",
+    "teamName": "PrepaTec - Cyberius"
+  },
+  {
+    "teamKey": "frc6024",
+    "number": "6024",
+    "teamName": "R Factor"
+  },
+  {
+    "teamKey": "frc6083",
+    "number": "6083",
+    "teamName": "Overlooking"
+  },
+  {
+    "teamKey": "frc6147",
+    "number": "6147",
+    "teamName": "Tonkabots"
+  },
+  {
+    "teamKey": "frc6238",
+    "number": "6238",
+    "teamName": "Popcorn Penguins"
+  },
+  {
+    "teamKey": "frc6324",
+    "number": "6324",
+    "teamName": "The Blue Devils"
+  },
+  {
+    "teamKey": "frc6328",
+    "number": "6328",
+    "teamName": "Mechanical Advantage"
+  },
+  {
+    "teamKey": "frc6329",
+    "number": "6329",
+    "teamName": "The Bucks' Wrath"
+  },
+  {
+    "teamKey": "frc6340",
+    "number": "6340",
+    "teamName": "The Marist Manatees"
+  },
+  {
+    "teamKey": "frc6348",
+    "number": "6348",
+    "teamName": "PrepaTec - HORUS"
+  },
+  {
+    "teamKey": "frc6352",
+    "number": "6352",
+    "teamName": "LAUNCH TEAM"
+  },
+  {
+    "teamKey": "frc6357",
+    "number": "6357",
+    "teamName": "The Spring Konstant"
+  },
+  {
+    "teamKey": "frc6358",
+    "number": "6358",
+    "teamName": "The Buhlean Operators"
+  },
+  {
+    "teamKey": "frc6369",
+    "number": "6369",
+    "teamName": "Mercenary Robotics"
+  },
+  {
+    "teamKey": "frc6401",
+    "number": "6401",
+    "teamName": "8-bit RAMs"
+  },
+  {
+    "teamKey": "frc6413",
+    "number": "6413",
+    "teamName": "Degrees of Freedom"
+  },
+  {
+    "teamKey": "frc6421",
+    "number": "6421",
+    "teamName": "WarriorBots"
+  },
+  {
+    "teamKey": "frc6424",
+    "number": "6424",
+    "teamName": "Stealth Panther Robotics"
+  },
+  {
+    "teamKey": "frc6429",
+    "number": "6429",
+    "teamName": "4th Dimension"
+  },
+  {
+    "teamKey": "frc6431",
+    "number": "6431",
+    "teamName": "NoktaParantez"
+  },
+  {
+    "teamKey": "frc6436",
+    "number": "6436",
+    "teamName": "PARS ROBOTICS"
+  },
+  {
+    "teamKey": "frc6459",
+    "number": "6459",
+    "teamName": "AG Robotik"
+  },
+  {
+    "teamKey": "frc6510",
+    "number": "6510",
+    "teamName": "Pymble Pride"
+  },
+  {
+    "teamKey": "frc6548",
+    "number": "6548",
+    "teamName": "Perry RAMBOTS"
+  },
+  {
+    "teamKey": "frc6574",
+    "number": "6574",
+    "teamName": "Ferradermis"
+  },
+  {
+    "teamKey": "frc6606",
+    "number": "6606",
+    "teamName": "Prepa Tecmilenio Pink Hawks 6606"
+  },
+  {
+    "teamKey": "frc6615",
+    "number": "6615",
+    "teamName": "Bellevillains"
+  },
+  {
+    "teamKey": "frc6621",
+    "number": "6621",
+    "teamName": "Artemis"
+  },
+  {
+    "teamKey": "frc6647",
+    "number": "6647",
+    "teamName": "PrepaTec - VOLTEC Robotics"
+  },
+  {
+    "teamKey": "frc6652",
+    "number": "6652",
+    "teamName": "Tigres"
+  },
+  {
+    "teamKey": "frc6665",
+    "number": "6665",
+    "teamName": "C-Otters"
+  },
+  {
+    "teamKey": "frc6702",
+    "number": "6702",
+    "teamName": "PrepaTec - StingBots"
+  },
+  {
+    "teamKey": "frc6706",
+    "number": "6706",
+    "teamName": "Golem"
+  },
+  {
+    "teamKey": "frc6738",
+    "number": "6738",
+    "teamName": "Excalibur"
+  },
+  {
+    "teamKey": "frc6749",
+    "number": "6749",
+    "teamName": "tERAbytes"
+  },
+  {
+    "teamKey": "frc6800",
+    "number": "6800",
+    "teamName": "Valor"
+  },
+  {
+    "teamKey": "frc6806",
+    "number": "6806",
+    "teamName": "Mineola Wild Reds"
+  },
+  {
+    "teamKey": "frc6832",
+    "number": "6832",
+    "teamName": "STEAMex"
+  },
+  {
+    "teamKey": "frc6838",
+    "number": "6838",
+    "teamName": "X-SHARC"
+  },
+  {
+    "teamKey": "frc6909",
+    "number": "6909",
+    "teamName": "SAKURA Tempesta"
+  },
+  {
+    "teamKey": "frc6911",
+    "number": "6911",
+    "teamName": "SO BOTZ"
+  },
+  {
+    "teamKey": "frc6919",
+    "number": "6919",
+    "teamName": "The Commodores"
+  },
+  {
+    "teamKey": "frc6940",
+    "number": "6940",
+    "teamName": "Violet Z"
+  },
+  {
+    "teamKey": "frc6941",
+    "number": "6941",
+    "teamName": "IronPulse Robotics"
+  },
+  {
+    "teamKey": "frc6948",
+    "number": "6948",
+    "teamName": "EAGLES"
+  },
+  {
+    "teamKey": "frc6989",
+    "number": "6989",
+    "teamName": "KAISER"
+  },
+  {
+    "teamKey": "frc6995",
+    "number": "6995",
+    "teamName": "NOMAD"
+  },
+  {
+    "teamKey": "frc6996",
+    "number": "6996",
+    "teamName": "Koalafied"
+  },
+  {
+    "teamKey": "frc7028",
+    "number": "7028",
+    "teamName": "Binary Battalion"
+  },
+  {
+    "teamKey": "frc7034",
+    "number": "7034",
+    "teamName": "2B Determined"
+  },
+  {
+    "teamKey": "frc7048",
+    "number": "7048",
+    "teamName": "Red River Rage"
+  },
+  {
+    "teamKey": "frc7056",
+    "number": "7056",
+    "teamName": "The F.A.S.T. Team - Fowlerville Area Scientific Technicians"
+  },
+  {
+    "teamKey": "frc7153",
+    "number": "7153",
+    "teamName": "Aetos Dios (Eagles of Zeus)"
+  },
+  {
+    "teamKey": "frc7166",
+    "number": "7166",
+    "teamName": "Red Thunder Robotics"
+  },
+  {
+    "teamKey": "frc7174",
+    "number": "7174",
+    "teamName": "Charger Robotics"
+  },
+  {
+    "teamKey": "frc7197",
+    "number": "7197",
+    "teamName": "Mountie Megabots"
+  },
+  {
+    "teamKey": "frc7211",
+    "number": "7211",
+    "teamName": "Hollywood"
+  },
+  {
+    "teamKey": "frc7257",
+    "number": "7257",
+    "teamName": "Semiconductors"
+  },
+  {
+    "teamKey": "frc7407",
+    "number": "7407",
+    "teamName": "Wired Boars"
+  },
+  {
+    "teamKey": "frc7415",
+    "number": "7415",
+    "teamName": "Jaguar Robotics Sponsored By Feit Electric"
+  },
+  {
+    "teamKey": "frc7421",
+    "number": "7421",
+    "teamName": "PrepaTec - OVERTURE"
+  },
+  {
+    "teamKey": "frc7426",
+    "number": "7426",
+    "teamName": "PAIR OF DICE ROBOTICS"
+  },
+  {
+    "teamKey": "frc7444",
+    "number": "7444",
+    "teamName": "MOON STAR ROBOTICS"
+  },
+  {
+    "teamKey": "frc7457",
+    "number": "7457",
+    "teamName": "suPURDUEper Robotics"
+  },
+  {
+    "teamKey": "frc7520",
+    "number": "7520",
+    "teamName": "Team MineKee"
+  },
+  {
+    "teamKey": "frc7522",
+    "number": "7522",
+    "teamName": "ElephantRobo"
+  },
+  {
+    "teamKey": "frc7525",
+    "number": "7525",
+    "teamName": "Pioneers"
+  },
+  {
+    "teamKey": "frc7531",
+    "number": "7531",
+    "teamName": "Servos Strike Back"
+  },
+  {
+    "teamKey": "frc7536",
+    "number": "7536",
+    "teamName": "ANKA ROBOTICS"
+  },
+  {
+    "teamKey": "frc7538",
+    "number": "7538",
+    "teamName": "Metal Mountain"
+  },
+  {
+    "teamKey": "frc7539",
+    "number": "7539",
+    "teamName": "Elev8"
+  },
+  {
+    "teamKey": "frc7558",
+    "number": "7558",
+    "teamName": "ALT-F4"
+  },
+  {
+    "teamKey": "frc7563",
+    "number": "7563",
+    "teamName": "SESI SENAI MEGAZORD"
+  },
+  {
+    "teamKey": "frc7565",
+    "number": "7565",
+    "teamName": "SESI SENAI ROBONÁTICOS"
+  },
+  {
+    "teamKey": "frc7567",
+    "number": "7567",
+    "teamName": "SESI SENAI OCTOPUS"
+  },
+  {
+    "teamKey": "frc7617",
+    "number": "7617",
+    "teamName": "RoboBlazers"
+  },
+  {
+    "teamKey": "frc7632",
+    "number": "7632",
+    "teamName": "An Kang Robotics Maker"
+  },
+  {
+    "teamKey": "frc7657",
+    "number": "7657",
+    "teamName": "ThunderBots"
+  },
+  {
+    "teamKey": "frc7709",
+    "number": "7709",
+    "teamName": "Formosa Pangolin"
+  },
+  {
+    "teamKey": "frc7769",
+    "number": "7769",
+    "teamName": "The CREW"
+  },
+  {
+    "teamKey": "frc7790",
+    "number": "7790",
+    "teamName": "Baywatch Robotics"
+  },
+  {
+    "teamKey": "frc7840",
+    "number": "7840",
+    "teamName": "EMONER ROBOTICS"
+  },
+  {
+    "teamKey": "frc7902",
+    "number": "7902",
+    "teamName": "Markham FireBirds"
+  },
+  {
+    "teamKey": "frc8020",
+    "number": "8020",
+    "teamName": "CyberpunK"
+  },
+  {
+    "teamKey": "frc8033",
+    "number": "8033",
+    "teamName": "Highlander Robotics"
+  },
+  {
+    "teamKey": "frc8044",
+    "number": "8044",
+    "teamName": "Denham Venom"
+  },
+  {
+    "teamKey": "frc8159",
+    "number": "8159",
+    "teamName": "Golden Horn"
+  },
+  {
+    "teamKey": "frc8177",
+    "number": "8177",
+    "teamName": "Vector"
+  },
+  {
+    "teamKey": "frc8214",
+    "number": "8214",
+    "teamName": "Cyber Unicorn"
+  },
+  {
+    "teamKey": "frc8393",
+    "number": "8393",
+    "teamName": "The Giant Diencephalic BrainSTEM Robotics Team"
+  },
+  {
+    "teamKey": "frc8429",
+    "number": "8429",
+    "teamName": "Valence Robotics"
+  },
+  {
+    "teamKey": "frc8503",
+    "number": "8503",
+    "teamName": "Raid One"
+  },
+  {
+    "teamKey": "frc8513",
+    "number": "8513",
+    "teamName": "Sisters 1st"
+  },
+  {
+    "teamKey": "frc8557",
+    "number": "8557",
+    "teamName": "ConquEra"
+  },
+  {
+    "teamKey": "frc8570",
+    "number": "8570",
+    "teamName": "Binary-Bolts"
+  },
+  {
+    "teamKey": "frc8573",
+    "number": "8573",
+    "teamName": "Rogue-Rangers LEGACY"
+  },
+  {
+    "teamKey": "frc8575",
+    "number": "8575",
+    "teamName": "The Due Westerners"
+  },
+  {
+    "teamKey": "frc8590",
+    "number": "8590",
+    "teamName": "Cavbotics"
+  },
+  {
+    "teamKey": "frc8592",
+    "number": "8592",
+    "teamName": "Newton²"
+  },
+  {
+    "teamKey": "frc8595",
+    "number": "8595",
+    "teamName": "This Is How We Play"
+  },
+  {
+    "teamKey": "frc8608",
+    "number": "8608",
+    "teamName": "Alpha Bots"
+  },
+  {
+    "teamKey": "frc8613",
+    "number": "8613",
+    "teamName": "Barker Greybacks"
+  },
+  {
+    "teamKey": "frc8708",
+    "number": "8708",
+    "teamName": "Ov3R1y K0Mp13X"
+  },
+  {
+    "teamKey": "frc8711",
+    "number": "8711",
+    "teamName": "The Midnight Ostrich Runners"
+  },
+  {
+    "teamKey": "frc8738",
+    "number": "8738",
+    "teamName": "Slice"
+  },
+  {
+    "teamKey": "frc8739",
+    "number": "8739",
+    "teamName": "Redhawk Robotics"
+  },
+  {
+    "teamKey": "frc8749",
+    "number": "8749",
+    "teamName": "Farmersville  Robotics"
+  },
+  {
+    "teamKey": "frc8808",
+    "number": "8808",
+    "teamName": "SWLA Tech Pirates"
+  },
+  {
+    "teamKey": "frc8866",
+    "number": "8866",
+    "teamName": "Innovation Robotics"
+  },
+  {
+    "teamKey": "frc8884",
+    "number": "8884",
+    "teamName": "Knight Owls"
+  },
+  {
+    "teamKey": "frc9008",
+    "number": "9008",
+    "teamName": "G-Force Robotics"
+  },
+  {
+    "teamKey": "frc9016",
+    "number": "9016",
+    "teamName": "Syosset SuperSonics"
+  },
+  {
+    "teamKey": "frc9024",
+    "number": "9024",
+    "teamName": "Callister"
+  },
+  {
+    "teamKey": "frc9029",
+    "number": "9029",
+    "teamName": "Team NF"
+  },
+  {
+    "teamKey": "frc9032",
+    "number": "9032",
+    "teamName": "RoboWhales"
+  },
+  {
+    "teamKey": "frc9037",
+    "number": "9037",
+    "teamName": "HHS Black Ops"
+  },
+  {
+    "teamKey": "frc9072",
+    "number": "9072",
+    "teamName": "TigerBots"
+  },
+  {
+    "teamKey": "frc9077",
+    "number": "9077",
+    "teamName": "The Crown"
+  },
+  {
+    "teamKey": "frc9085",
+    "number": "9085",
+    "teamName": "SESI SENAI MEGA HARPY"
+  },
+  {
+    "teamKey": "frc9105",
+    "number": "9105",
+    "teamName": "TechnoTalons"
+  },
+  {
+    "teamKey": "frc9126",
+    "number": "9126",
+    "teamName": "Silver Hawks"
+  },
+  {
+    "teamKey": "frc9134",
+    "number": "9134",
+    "teamName": "Tecmilenio - DEVOLT"
+  },
+  {
+    "teamKey": "frc9140",
+    "number": "9140",
+    "teamName": "The Robobots"
+  },
+  {
+    "teamKey": "frc9199",
+    "number": "9199",
+    "teamName": "SESI SENAI SHARKS"
+  },
+  {
+    "teamKey": "frc9234",
+    "number": "9234",
+    "teamName": "Les aigles d'or"
+  },
+  {
+    "teamKey": "frc9245",
+    "number": "9245",
+    "teamName": "Laker Dreadnoughts"
+  },
+  {
+    "teamKey": "frc9280",
+    "number": "9280",
+    "teamName": "PrepaTec - High Altitude Robotics"
+  },
+  {
+    "teamKey": "frc9301",
+    "number": "9301",
+    "teamName": "PrepaTec Chihuahua - MechRams"
+  },
+  {
+    "teamKey": "frc9312",
+    "number": "9312",
+    "teamName": "NERD Spark"
+  },
+  {
+    "teamKey": "frc9401",
+    "number": "9401",
+    "teamName": "Midas' Mayhem"
+  },
+  {
+    "teamKey": "frc9408",
+    "number": "9408",
+    "teamName": "Warbots"
+  },
+  {
+    "teamKey": "frc9427",
+    "number": "9427",
+    "teamName": "iDeer"
+  },
+  {
+    "teamKey": "frc9432",
+    "number": "9432",
+    "teamName": "Team 8-Bit"
+  },
+  {
+    "teamKey": "frc9442",
+    "number": "9442",
+    "teamName": "Miso Mechanics"
+  },
+  {
+    "teamKey": "frc9450",
+    "number": "9450",
+    "teamName": "Velocity Raptors"
+  },
+  {
+    "teamKey": "frc9459",
+    "number": "9459",
+    "teamName": "SESI SENAI RPRT HAWKS"
+  },
+  {
+    "teamKey": "frc9483",
+    "number": "9483",
+    "teamName": "İstanbul Wildcats"
+  },
+  {
+    "teamKey": "frc9484",
+    "number": "9484",
+    "teamName": "Robot's District"
+  },
+  {
+    "teamKey": "frc9496",
+    "number": "9496",
+    "teamName": "LYNK"
+  },
+  {
+    "teamKey": "frc9545",
+    "number": "9545",
+    "teamName": "Caracal Robotics"
+  },
+  {
+    "teamKey": "frc9576",
+    "number": "9576",
+    "teamName": "Loretto Lightning"
+  },
+  {
+    "teamKey": "frc9583",
+    "number": "9583",
+    "teamName": "Lavender Robotics"
+  },
+  {
+    "teamKey": "frc9609",
+    "number": "9609",
+    "teamName": "Paraducks"
+  },
+  {
+    "teamKey": "frc9635",
+    "number": "9635",
+    "teamName": "Cyber Rabbit"
+  },
+  {
+    "teamKey": "frc9692",
+    "number": "9692",
+    "teamName": "Sigma Powered By Adipro"
+  },
+  {
+    "teamKey": "frc9717",
+    "number": "9717",
+    "teamName": "Poultronix"
+  },
+  {
+    "teamKey": "frc9785",
+    "number": "9785",
+    "teamName": "Alectrona"
+  },
+  {
+    "teamKey": "frc9787",
+    "number": "9787",
+    "teamName": "Fathom Robotics"
+  },
+  {
+    "teamKey": "frc10011",
+    "number": "10011",
+    "teamName": "Gem City Gridrunners"
+  },
+  {
+    "teamKey": "frc10014",
+    "number": "10014",
+    "teamName": "REBELLION"
+  },
+  {
+    "teamKey": "frc10015",
+    "number": "10015",
+    "teamName": "Bubbles"
+  },
+  {
+    "teamKey": "frc10021",
+    "number": "10021",
+    "teamName": "Guerin Catholic Golden Gears"
+  },
+  {
+    "teamKey": "frc10032",
+    "number": "10032",
+    "teamName": "Singularity"
+  },
+  {
+    "teamKey": "frc10063",
+    "number": "10063",
+    "teamName": "S.C.R.A.P."
+  },
+  {
+    "teamKey": "frc10077",
+    "number": "10077",
+    "teamName": "The H.E.I.S.T."
+  },
+  {
+    "teamKey": "frc10079",
+    "number": "10079",
+    "teamName": "Arrowdynamics"
+  },
+  {
+    "teamKey": "frc10120",
+    "number": "10120",
+    "teamName": "Wulfa the Wolf"
+  },
+  {
+    "teamKey": "frc10157",
+    "number": "10157",
+    "teamName": "Roman Robotics"
+  },
+  {
+    "teamKey": "frc10213",
+    "number": "10213",
+    "teamName": "BALTA"
+  },
+  {
+    "teamKey": "frc10224",
+    "number": "10224",
+    "teamName": "MAV MECHANICS (NASA)"
+  },
+  {
+    "teamKey": "frc10260",
+    "number": "10260",
+    "teamName": "RoboJags"
+  },
+  {
+    "teamKey": "frc10291",
+    "number": "10291",
+    "teamName": "MUTUM-X"
+  },
+  {
+    "teamKey": "frc10337",
+    "number": "10337",
+    "teamName": "Technoka Robotics"
+  },
+  {
+    "teamKey": "frc10428",
+    "number": "10428",
+    "teamName": "KAIZEN"
+  },
+  {
+    "teamKey": "frc10479",
+    "number": "10479",
+    "teamName": "Powerhouse"
+  },
+  {
+    "teamKey": "frc10482",
+    "number": "10482",
+    "teamName": "Buzz Bots"
+  },
+  {
+    "teamKey": "frc10518",
+    "number": "10518",
+    "teamName": "Aluminium Falcons"
+  },
+  {
+    "teamKey": "frc10523",
+    "number": "10523",
+    "teamName": "Singularity Robotics"
+  },
+  {
+    "teamKey": "frc10589",
+    "number": "10589",
+    "teamName": "Binary Crows"
+  },
+  {
+    "teamKey": "frc10598",
+    "number": "10598",
+    "teamName": "TADroid"
+  },
+  {
+    "teamKey": "frc10656",
+    "number": "10656",
+    "teamName": "RataToaster"
+  },
+  {
+    "teamKey": "frc10690",
+    "number": "10690",
+    "teamName": "Cranbrook"
+  },
+  {
+    "teamKey": "frc10698",
+    "number": "10698",
+    "teamName": "Armathronics15"
+  }
+]
